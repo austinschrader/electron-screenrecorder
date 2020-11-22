@@ -15,6 +15,7 @@ const createWindow = () => {
     // Access NodeJS globals in our front end code
     webPreferences: {
       nodeIntegration: true,
+      enableRemoteModule: true
     },
   });
 
